@@ -4,6 +4,6 @@ locals {
         project = var.project
         environment = var.environment
         Terraform = true
-        Name = final_sg_name 
+        Name = local.final_sg_name 
     }
 }
